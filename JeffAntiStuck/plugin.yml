@@ -1,0 +1,7 @@
+name: JeffAntiStuck
+main: de.jeffclan.JeffAntiStuck
+version: 1.0
+commands:
+  stuck:
+    description: Befreit dich wenn du im Boden hängst.
+    permission: jeff.antistuck
