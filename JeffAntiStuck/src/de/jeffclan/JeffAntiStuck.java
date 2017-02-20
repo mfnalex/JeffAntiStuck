@@ -15,7 +15,7 @@ public class JeffAntiStuck extends JavaPlugin implements CommandExecutor {
 				Player p = (Player) arg0;
 				if (p.hasPermission("jeff.antistuck")) {
 					p.teleport(p.getLocation().add(0, 0.2, 0));
-					p.sendMessage(ChatColor.PURPLE+"Du Tölpel...");
+					p.sendMessage(ChatColor.LIGHT_PURPLE+"Du Tölpel...");
 				}
 			}
 		}
